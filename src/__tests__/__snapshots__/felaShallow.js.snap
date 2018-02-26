@@ -1,0 +1,362 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Level 1 1`] = `
+Object {
+  "component": <div
+    className="a b c d e"
+>
+     
+    foo
+     
+</div>,
+  "styles": "
+.a {
+  width: 10px
+}
+
+.b {
+  height: 10px
+}
+
+.c {
+  color: #9BCA3E
+}
+
+.d {
+  background-color: #000
+}
+
+.e {
+  font-size: 10
+}
+",
+}
+`;
+
+exports[`Level 2 1`] = `
+Object {
+  "component": <div
+    className="a b c d e"
+>
+     
+     
+</div>,
+  "styles": "
+.a {
+  width: 10px
+}
+
+.b {
+  height: 10px
+}
+
+.c {
+  color: #9BCA3E
+}
+
+.d {
+  background-color: #000
+}
+
+.e {
+  font-size: 15px
+}
+",
+}
+`;
+
+exports[`Level 3 1`] = `
+Array [
+  Object {
+    "component": <div
+      className="a b c"
+>
+      hello
+</div>,
+    "styles": "
+.a {
+  background-color: #9BCA3E
+}
+
+.b {
+  width: 10px
+}
+
+.c {
+  height: 10px
+}
+",
+  },
+  Object {
+    "component": <div
+      className="a b c"
+>
+      hello
+</div>,
+    "styles": "
+.a {
+  background-color: #9BCA3E
+}
+
+.b {
+  width: 10px
+}
+
+.c {
+  height: 10px
+}
+",
+  },
+]
+`;
+
+exports[`felaShallow should return a formatted snapshot object with DOM and styles 1`] = `
+Object {
+  "component": <div
+    className="a"
+/>,
+  "styles": "
+.a {
+  color: black
+}
+",
+}
+`;
+
+exports[`felaShallow unstyledBox 1`] = `
+Object {
+  "component": <div
+    className="a b c d"
+>
+     
+    foo
+     
+</div>,
+  "styles": "
+.a {
+  width: 10px
+}
+
+.b {
+  height: 10px
+}
+
+.c {
+  color: #9BCA3E
+}
+
+.d {
+  font-size: 15px
+}
+",
+}
+`;
+
+exports[`no child 1`] = `Array []`;
+
+exports[`simple snapshot without styles 1`] = `
+Object {
+  "component": <FelaComponent
+    _felaTheme={
+        Object {
+            "arrowSize": "5px",
+            "bodyAccentColor": "#333",
+            "bodyBackground": "#ebebeb",
+            "bodyOffsetColor": "#787878",
+            "borderRadius": "2px",
+            "boxShadow": "0 0 20px 0 rgba(136,136,136,0.50)",
+            "breakpoints": Object {
+              "desktop": "64em",
+              "desktopLarge": "97.6em",
+              "desktopLegacy": "66em",
+              "mobile": "13.6em",
+              "mobileWide": "30.4em",
+              "tablet": "47.2em",
+              "tabletLegacy": "49.2em",
+              "tabletWide": "55em",
+            },
+            "color": Object {
+              "apple": "#BD2527",
+              "ash": "#CCCCCC",
+              "black": "#000",
+              "blueberry": "#97bddf",
+              "carrot": "#f56500",
+              "cement": "#7D7D7D",
+              "charcoal": "#333333",
+              "cherry": "#A61E20",
+              "dawn": "#F16975",
+              "deepsea": "#1E4E79",
+              "dew": "#85CBA8",
+              "dusk": "#4D4D4F",
+              "dust": "#ebebeb",
+              "fern": "#85B832",
+              "grass": "#9BCA3E",
+              "hail": "#BCBEC0",
+              "ice": "#eaf2f8",
+              "leaf": "#cde49e",
+              "lightning": "#FFDB6F",
+              "marine": "#2F7BBF",
+              "moonshine": "#F7F7F7",
+              "night": "#404041",
+              "pine": "#f5faeb",
+              "poppy": "#f8e9e9",
+              "pumpkin": "#E66B00",
+              "rain": "#408BC9",
+              "shrimp": "#de9293",
+              "sky": "#76C4E2",
+              "smoke": "#e0e0e0",
+              "storm": "#808285",
+              "sunrise": "#F69259",
+              "sunset": "#BA77B1",
+              "tangerine": "#FF7900",
+              "thunder": "#286EA4",
+              "twilight": "#8176B5",
+              "water": "#cbdeef",
+              "white": "#fff",
+            },
+            "colorBlack": "#000",
+            "colorBlue": "#2f7bbf",
+            "colorBlueDark": "#2869a2",
+            "colorBlueLight": "#62a1d8",
+            "colorError": "#ff3100",
+            "colorFacebookBlue": "#3b5998",
+            "colorGray": "#7c7c7c",
+            "colorGrayBorder": "#666",
+            "colorGrayDark": "#333",
+            "colorGrayLight": "#dedede",
+            "colorGrayLightOnboarding": "#F7F7F7",
+            "colorGreen": "#9bca3e",
+            "colorGreenDark": "#87b331",
+            "colorGreenLight": "#bada7a",
+            "colorImportantInformation": "rgba(64,139,201,0.2)",
+            "colorInfo": "#00a9eb",
+            "colorMainBackground": "#e6e6e6",
+            "colorMuted": "#7c7c7c",
+            "colorOffsetDark": 0.07,
+            "colorOffsetLight": 0.15,
+            "colorOrange": "#ff7900",
+            "colorOrangeDark": "#db6800",
+            "colorOrangeLight": "#ffa14d",
+            "colorOverlay": "rgba(0, 0, 0, .7)",
+            "colorPink": "#d91698",
+            "colorPinkDark": "#b91381",
+            "colorPinkLight": "#ed4eb8",
+            "colorPurple": "#9545e5",
+            "colorPurpleDark": "#b91381",
+            "colorPurpleLight": "#ed4eb8",
+            "colorRed": "#bd2527",
+            "colorRedDark": "#9f1f21",
+            "colorRedLight": "#dd5153",
+            "colorSmoke": "#f2f2f2",
+            "colorSuccess": "#68970f",
+            "colorTwitterBlue": "#00aced",
+            "colorWarning": "#fca520",
+            "colorWhite": "#fff",
+            "colorYellow": "#ffd24d",
+            "colorYellowDark": "#ffc929",
+            "colorYellowLight": "#ffe59a",
+            "colors": Object {
+              "apple": "#BD2527",
+              "ash": "#CCCCCC",
+              "black": "#000",
+              "blueberry": "#97bddf",
+              "carrot": "#f56500",
+              "cement": "#7D7D7D",
+              "charcoal": "#333333",
+              "cherry": "#A61E20",
+              "dawn": "#F16975",
+              "deepsea": "#1E4E79",
+              "dew": "#85CBA8",
+              "dusk": "#4D4D4F",
+              "dust": "#ebebeb",
+              "fern": "#85B832",
+              "grass": "#9BCA3E",
+              "hail": "#BCBEC0",
+              "ice": "#eaf2f8",
+              "leaf": "#cde49e",
+              "lightning": "#FFDB6F",
+              "marine": "#2F7BBF",
+              "moonshine": "#F7F7F7",
+              "night": "#404041",
+              "pine": "#f5faeb",
+              "poppy": "#f8e9e9",
+              "pumpkin": "#E66B00",
+              "rain": "#408BC9",
+              "shrimp": "#de9293",
+              "sky": "#76C4E2",
+              "smoke": "#e0e0e0",
+              "storm": "#808285",
+              "sunrise": "#F69259",
+              "sunset": "#BA77B1",
+              "tangerine": "#FF7900",
+              "thunder": "#286EA4",
+              "twilight": "#8176B5",
+              "water": "#cbdeef",
+              "white": "#fff",
+            },
+            "disabledBackground": "#ededed",
+            "em": "1em",
+            "fontColor": "#333",
+            "fontColorHeadingCaption": "#888",
+            "fontFamily": "\\"Open Sans\\", Helvetica, Arial, sans-serif",
+            "fontSize": "15px",
+            "fontSizes": Array [
+              10,
+              12,
+              14,
+              16,
+              20,
+              24,
+              32,
+              48,
+              64,
+              80,
+            ],
+            "fontWeight": 400,
+            "fontWeightLight": 300,
+            "gradient": Object {
+              "dawnSunrise": "linear-gradient(to right, #F16975, #F69259)",
+              "dewLightning": "linear-gradient(to right, #85CBA8, #FFDB6F)",
+              "skyDew": "linear-gradient(to right, #76C4E2, #85CBA8)",
+              "sunriseLightning": "linear-gradient(to right, #F69259, #FFDB6F)",
+              "twilightDawn": "linear-gradient(to right, #8176B5, #F16975)",
+              "twilightDew": "linear-gradient(to right, #8176B5, #85CBA8)",
+              "twilightSky": "linear-gradient(to right, #8176B5, #76C4E2)",
+              "twilightSunset": "linear-gradient(to right, #8176B5, #BA77B1)",
+            },
+            "inputFontSize": "13px",
+            "inputHeight": "2.26667rem",
+            "inputLineHeight": 1.4,
+            "lineHeight": 1.5,
+            "lineHeights": Object {
+              "copy": 1.5,
+              "solid": 1,
+              "title": 1.25,
+            },
+            "measure": Object {
+              "default": "30em",
+              "narrow": "20em",
+              "wide": "34em",
+            },
+            "rem": "1rem",
+            "space": Array [
+              0,
+              4,
+              8,
+              16,
+              32,
+              64,
+              128,
+              256,
+            ],
+            "weightBold": 700,
+            "weightLight": 300,
+            "weightNormal": 400,
+            "weightSemiBold": 600,
+            "zIndexMax": 1000,
+            "zIndexModal": 1400,
+          }
+    }
+/>,
+}
+`;
